@@ -1,0 +1,48 @@
+<root>
+  <item>
+    <number>5</number>
+  </item>
+  <item>
+    <number>9</number>
+  </item>
+  <item>
+    <number>3</number>
+  </item>
+  <item>
+    <number>4</number>
+  </item>
+  <item>
+    <number>5</number>
+  </item>
+  <item>
+    <number>7</number>
+  </item>
+  <item>
+    <number>9</number>
+  </item>
+  <item>
+    <number>12</number>
+  </item>
+  <item>
+    <number>12</number>
+  </item>
+  <item>
+    <number>16</number>
+  </item>
+  <item>
+    <number>13</number>
+  </item>
+  <item>
+    <number>9</number>
+  </item>
+  <item>
+    <number>8</number>
+  </item>
+  <item>
+    <number>5</number>
+  </item>
+  <xaxis>
+    <minlabel>1 Jan</minlabel>
+    <maxlabel>30 Jun</maxlabel>
+  </xaxis>
+</root>

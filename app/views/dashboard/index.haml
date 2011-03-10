@@ -1,0 +1,12 @@
+#dashboard
+  #dashboard_header
+  #dashboard_body
+    %ul#dashboard_ul
+      - @widgets.each do |w|
+        %li.widget[w]{:path => widget_path(w)}
+          .widget_box
+            %h2
+              widget
+            .content
+              (original)
+              = w.data

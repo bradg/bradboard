@@ -1,0 +1,11 @@
+<root>
+  <item>
+    <text><![CDATA[This is <xml> data 1]]></text>
+  </item>
+  <item>
+    <text><![CDATA[This is <xml> data 2]]></text>
+  </item>
+  <item>
+    <text><![CDATA[This is <xml> data 3]]></text>
+  </item>
+</root>

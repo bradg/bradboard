@@ -1,0 +1,2 @@
+class XmlTextWidget < Widget
+end

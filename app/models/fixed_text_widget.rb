@@ -1,0 +1,2 @@
+class FixedTextWidget < Widget
+end

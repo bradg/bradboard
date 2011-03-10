@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bradboard</title>
+  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag 'ui-darkness/jquery-ui-1.8.10.custom.css' %>
+  <%= javascript_include_tag 'jquery-1.5.1', 'jquery-ui-1.8.10.custom.min', 'application' %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

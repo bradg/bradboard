@@ -1,0 +1,2 @@
+class RedOrangeGreenWidget < Widget
+end

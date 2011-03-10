@@ -1,0 +1,2 @@
+class PlainTextWidget < Widget
+end
