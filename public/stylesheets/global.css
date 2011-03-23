@@ -1,9 +1,12 @@
 .widget { float: left; height: 220px; width: 220px; }
+.widget.size-2x1 { width: 440px; }
 .widget_box { height: 200px; width: 200px; border: solid 1px #ccc;}
+.widget.size-2x1 .widget_box { width: 420px; }
 .widget h2 {border: solid 1px #ddd; border-left: none; border-right: none; cursor: move;}
 ul#dashboard_ul { list-style-type: none; margin: 0; padding: 0;}
 
 .widget .content {overflow: hidden; width: 200px; position: absolute;}
+.widget.size-2x1 .content {overflow: hidden; width: 420px; position: absolute;}
 
 
 .rog_bar, .rog_text {float: left;}

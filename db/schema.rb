@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110303120859) do
+ActiveRecord::Schema.define(:version => 20110323092840) do
 
   create_table "widgets", :force => true do |t|
     t.integer  "dashboard_id"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20110303120859) do
     t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "size"
   end
 
 end

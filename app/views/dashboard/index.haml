@@ -3,7 +3,7 @@
   #dashboard_body
     %ul#dashboard_ul
       - @widgets.each do |w|
-        %li.widget[w]{:path => widget_path(w)}
+        %li.widget[w]{:path => widget_path(w), :class => "size-#{w.size}"}
           .widget_box
             %h2
               widget

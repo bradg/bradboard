@@ -18,7 +18,10 @@ class ChartWidget < Widget
     xstart = xml.css('xaxis minlabel').first.text if xml.css('xaxis minlabel').first
     xend   = xml.css('xaxis maxlabel').first.text if xml.css('xaxis maxlabel').first
     puts "xstart #{xstart}, xend #{xend}"
-    google_chart_url = "https://chart.googleapis.com/chart?chs=190x127&cht=lc&chd=t:#{numbers.join(',')}&chds=#{[numbers.min,0].min},#{numbers.max}&chxt=y,x&chxr=0,#{[numbers.min,0].min},#{numbers.max}&chxl=1:|#{xstart}|#{xend}"
+    xsize = 190; ysize = 127
+    xsize = 410 if self.size && self.size =~ /2x./
+    ysize = 347 if self.size && self.size =~ /.x2/
+    google_chart_url = "https://chart.googleapis.com/chart?chs=#{xsize}x#{ysize}&cht=lc&chd=t:#{numbers.join(',')}&chds=#{[numbers.min,0].min},#{numbers.max}&chxt=y,x&chxr=0,#{[numbers.min,0].min},#{numbers.max}&chxl=1:|#{xstart}|#{xend}"
     "<img src=\"#{google_chart_url}\" />"
   end
 end
