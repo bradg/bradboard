@@ -6,6 +6,7 @@
 ul#dashboard_ul { list-style-type: none; margin: 0; padding: 0;}
 
 .widget .content {overflow: hidden; width: 200px; position: absolute;}
+.widget .actions {position: relative; top:100px;}
 .widget.size-2x1 .content {overflow: hidden; width: 420px; position: absolute;}
 
 

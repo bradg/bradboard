@@ -15,4 +15,9 @@ class Widget < ActiveRecord::Base
       self.data
     end
   end
+
+  def self.types
+    self.subclasses.map(&:to_s).map(&:underscore)
+    %w/plain_text_widget fixed_text_widget red_orange_green_widget xml_text_widget chart_widget/
+  end
 end

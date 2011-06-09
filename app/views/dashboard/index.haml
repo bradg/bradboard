@@ -10,3 +10,8 @@
             .content
               (original)
               = w.data
+            .actions
+              = link_to "Delete", widget_path(w)
+              = link_to "Edit",   edit_widget_path(w)
+  #new_widget
+    = link_to 'Create a new widget',new_widget_path

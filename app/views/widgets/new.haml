@@ -1,0 +1,14 @@
+%h1 New widget
+
+= form_for @widget do |f|
+  %dl
+    %dt Type:
+    %dd= f.select :type, Widget.types
+
+    %dt Data:
+    %dd= f.text_area :data
+
+    %dt Source:
+    %dd= f.text_field :source
+
+  = f.submit "Create"

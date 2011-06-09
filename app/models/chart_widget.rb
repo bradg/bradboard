@@ -24,4 +24,5 @@ class ChartWidget < Widget
     google_chart_url = "https://chart.googleapis.com/chart?chs=#{xsize}x#{ysize}&cht=lc&chd=t:#{numbers.join(',')}&chds=#{[numbers.min,0].min},#{numbers.max}&chxt=y,x&chxr=0,#{[numbers.min,0].min},#{numbers.max}&chxl=1:|#{xstart}|#{xend}"
     "<img src=\"#{google_chart_url}\" />"
   end
+
 end
